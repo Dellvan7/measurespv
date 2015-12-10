@@ -20,7 +20,7 @@ cd ../..
 sudo apt-get install autoconf libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libqt4-dev libqrencode-dev libtool
 
 cd bitcoin
-git checkout measurespv
+git checkout measureSPV
 ./autogen.sh
 ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/" --with-gui
 make
