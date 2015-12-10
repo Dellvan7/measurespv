@@ -2,6 +2,8 @@
 
 # Jacob Freck
 # adapted from http://bitzuma.com/posts/compile-bitcoin-core-from-source-on-ubuntu/
+sudo apt-get update
+sudo apt-get install git
 
 mkdir -p src && cd src
 git clone https://github.com/Dellvan7/bitcoin.git
