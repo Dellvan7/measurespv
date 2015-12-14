@@ -17,6 +17,9 @@ __Why Does It Matter__
 __Progress__
 * Still in the reasearch phases
 
+__Installation__
+* `git clone https://github.com/Dellvan7/measurespv.git`
+* run the command `sh compile_from_source.sh`
 
 __Sources and Related Works__
 * On the Privacy Provisions of Bloom Filters in Lightweight Bitcoin Clients, Gervais et. all
